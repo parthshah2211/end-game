@@ -5,7 +5,7 @@
         <div class="header-bar-warp d-flex">
             <!-- site logo -->
             <a href="home.html" class="site-logo">
-                <img src="{{asset('img/logo.png')}}" alt="">
+                <img src="{{asset('img/logo.png')}}"  style="height:110q;width:105px; align-self: center">
             </a>
             <nav class="top-nav-area w-100">
                 <div class="user-panel">
@@ -22,11 +22,13 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
+
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                       style="display: none;">

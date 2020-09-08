@@ -4,22 +4,21 @@
     <!-- Hero section -->
     <section class="hero-section overflow-hidden">
         <div class="hero-slider owl-carousel">
-            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/sp-bg-1.jpg">
+            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slide1.jpg">
                 <div class="container">
-                    <h2>Game on!</h2>
+                    <h2>JOIN TOURNAMENT</h2>
                     <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-                    <a href="register.html" class="site-btn">REGISTER HERARE  <img src="{{asset('css/main-site/img/cons/double-arrow.png')}}"></a>
+                    <a href="register.html" class="site-btn">JOIN HERARE</a>
                 </div>
             </div>
-            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/2news.jpg">
+            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/SLIDE2.jpg">
                 <div class="container">
-                    <h2>Game on!</h2>
+                    <h2>JOIN GIVE-WAY</h2>
                     <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-                    <a href="#" class="site-btn">Join Tournament</a>
+                    <a href="#" class="site-btn">JOIN  HERARE</a>
                 </div>
             </div>
-            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/sp-bg-3.jpg"></div>
-        </div>
+             </div>
     </section>
     <!-- Hero section end-->
 
@@ -106,24 +105,12 @@
 
 
 
+
         <div class="content-wrapper">
 
             <div class="news-card">
                 <a href="#" class="news-card__card-link"></a>
-                <img src=  "{{asset('img/2.0.jpg')}}">
-                <div class="news-card__text-wrapper">
-                    <h2 class="news-card__title" >Amazing First Title</h2>
-                    <div class="news-card__post-date">Jan 29, 2018</div>
-                    <div class="news-card__details-wrapper">
-                        <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
-                        <a href="main news.html" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="news-card">
-                <a href="#" class="news-card__card-link"></a>
-                <img src="{{asset('img/2news.jpg')}}">
+                <img src="{{asset('img/sp.jpg')}}">
                 <div class="news-card__text-wrapper">
                     <h2 class="news-card__title"></h2>
                     <div class="news-card__post-date">Jan 29, 2018</div>
@@ -202,7 +189,7 @@
 
     <!-- News section End -->
     <!-- Intro section -->
-    <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/vi.jpg">
+    <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/sp-bg-2.jpg">
         <a href="https://www.youtube.com/watch?v=Q19apeXtGXE" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
         <div class="container">
             <div class="video-text">
