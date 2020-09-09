@@ -94,12 +94,16 @@
                     <li><a href="#">Paid</a></li>
 
                 </ul>
-                <div class="big-blog-item">
-                    <img src="img/blog-big/1.jpg" alt="#" class="blog-thumbnail">
+
+
+                    <div class="big-blog-item">
+                    <img src="img/blog-big/2.jpg" alt="#" class="blog-thumbnail">
                     <div class="blog-content text-box text-white">
-                        <div class="top-meta">22/11/2020 </div>
+                        <div class="top-meta">Date:22/11/2020 </div>
+                        <div class="top-meta">Price-Pool:4000</div>
+
                         <h3>The best VR games on the market</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+                        <p><H5>Rules</H5>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
                         <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament<img src="img/icons/double-arrow.png" alt="#"/></a>
                     </div>
                 </div>
@@ -112,7 +116,8 @@
                         <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament <img src="img/icons/double-arrow.png" alt="#"/></a>
                     </div>
                 </div>
-                <div class="big-blog-item">
+
+                        <div class="big-blog-item">
                     <img src="img/blog-big/3.jpg" alt="#" class="blog-thumbnail">
                     <div class="blog-content text-box text-white">
                         <div class="top-meta">22/11/2020 </div>
@@ -131,7 +136,7 @@
             <div class="col-xl-3 col-lg-4 col-md-5 sidebar">
                 <div id="stickySidebar">
                     <div class="widget-item">
-
+0
                     </div>
                     <div class="widget-item">
                         <h4 class="widget-title">Upcoming Tournament</h4>

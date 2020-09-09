@@ -45,6 +45,11 @@
        <textarea class="form-control" placeholder="Enter Tournament Description" name="description" id="description"></textarea>
     </div>
     <div class="form-group col-md-6">
+        <label for="pwd">Price Distributio:</label>
+        <textarea class="form-control" placeholder="Enter Price Distributio" name="distributio" id="distributio"></textarea>
+    </div>
+
+    <div class="form-group col-md-6">
         <label for="pwd">Tournament Image:</label>
       <input type="file" name="image">
     </div>
