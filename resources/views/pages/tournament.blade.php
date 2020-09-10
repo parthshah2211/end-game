@@ -51,7 +51,7 @@
                 <div class="tw-text">
                     <div class="tw-meta">22/11/2000  in <a href="{{url('/tournamentDetail')}}">Join-Now</a></div>
 
-                    <h5> sequnce <span style="font-size: medium;">price-pool 4000$</span></h5>
+                    <h5> sequnce <span style="font-size: medium;">price-pool 4000₹</span></h5>
 
                 </div>
             </div>
@@ -62,8 +62,8 @@
                 <div class="tw-text">
                     <div class="tw-meta">22/11/2000  in <a href="{{url('/tournamentDetail')}}">Join-Now</a></div>
 
-                    <h5> sequnce <span style="font-size: medium;">price-pool 4000$</span></h5>
-
+                    <h5> sequnce <span style="font-size: medium;">price-pool 4000₹</span></h5>
+                    ₹
 
                 </div>
             </div>
@@ -74,7 +74,7 @@
                 <div class="tw-text">
                     <div class="tw-meta">22/11/2000  in <a href="{{url('/tournamentDetail')}}">Join-Now</a></div>
 
-                    <h5> sequnce <span style="font-size: medium;">price-pool 4000$</span></h5>
+                    <h5> sequnce <span style="font-size: medium;">price-pool 4000₹</span></h5>
 
                 </div>
             </div>
@@ -99,31 +99,40 @@
                     <div class="big-blog-item">
                     <img src="img/blog-big/2.jpg" alt="#" class="blog-thumbnail">
                     <div class="blog-content text-box text-white">
-                        <div class="top-meta">Date:22/11/2020 </div>
-                        <div class="top-meta">Price-Pool:4000</div>
+                        <div class="top-meta">  The best VR games on the market</div>
+                        <div class="top-meta"> Date:22/11/2020</div>
+                        <h4>tournament type:solo</h4>
+                        <h4>Entry fees:Free</h4>
 
-                        <h3>The best VR games on the market</h3>
-                        <p><H5>Rules</H5>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+                        <h3>Price-Pool:4000₹</h3>
+                        <p><H5> Prize distribution</H5>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
                         <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament<img src="img/icons/double-arrow.png" alt="#"/></a>
                     </div>
                 </div>
+
                 <div class="big-blog-item">
                     <img src="img/blog-big/2.jpg" alt="#" class="blog-thumbnail">
                     <div class="blog-content text-box text-white">
-                        <div class="top-meta">22/11/2020 </div>
-                        <h3>The best online game is out now!</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                        <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament <img src="img/icons/double-arrow.png" alt="#"/></a>
+                        <div class="top-meta">  The best VR games on the market</div>
+                        <div class="top-meta"> Date:22/11/2020</div>
+                        <h4>tournament type:Dual</h4>
+                        <h3>Price-Pool:4000₹</h3>
+                        <h4>Entry fees:Free</h4>
+                        <p><H5> Prize distribution</H5>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+                        <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament<img src="img/icons/double-arrow.png" alt="#"/></a>
                     </div>
                 </div>
 
-                        <div class="big-blog-item">
-                    <img src="img/blog-big/3.jpg" alt="#" class="blog-thumbnail">
+                <div class="big-blog-item">
+                    <img src="img/blog-big/2.jpg" alt="#" class="blog-thumbnail">
                     <div class="blog-content text-box text-white">
-                        <div class="top-meta">22/11/2020 </div>
-                        <h3>The best online game is out now!</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                        <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament <img src="img/icons/double-arrow.png" alt="#"/></a>
+                        <div class="top-meta">  The best VR games on the market</div>
+                        <div class="top-meta"> Date:22/11/2020</div>
+                        <h4>tournament type:Squard</h4>
+                        <h3>Price-Pool:4000₹</h3>
+                        <h4>Entry fees:Free</h4>
+                        <p><H5> Prize distribution</H5>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+                        <a href="{{url('/tournamentDetail')}}" class="read-more">Join Tournament<img src="img/icons/double-arrow.png" alt="#"/></a>
                     </div>
                 </div>
                 <div class="site-pagination">
@@ -158,11 +167,6 @@
                                 <div class="tw-text">22/11/2020</a> <span>Price-pool:2000$</span> The best online game out there </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="widget-item">
-                        <a href="#" class="add">
-                            <img src="./img/add.jpg" alt="">
-                        </a>
                     </div>
                     <div class="widget-item">
                         <div class="categories-widget">

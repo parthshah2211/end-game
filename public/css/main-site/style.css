@@ -3219,16 +3219,16 @@ news home page
 a,
 a:focus,
 a:hover {
-    color: #fff;
+    color: #3a1854;
 }
 
 /* Custom default button */
 .btn-default {
-    color: #fff;
+    color: #1f6fb2;
     text-shadow: none;
     /* Prevent inheritence from `body` */
-    background-color: transparent;
-    border: 2px solid #fff;
+    background-color: #3a1854;
+    border: 2px solid #1f6fb2;
     border-radius: 20px;
     padding: 0.5rem 2rem;
 }
@@ -3412,6 +3412,12 @@ body {
 
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+</script>
+
+                                                                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+                                                                                                                                                          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+                                                                                                                                                                                                                                                    <script src="scripts/main.js"></script>
 
 
 

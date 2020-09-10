@@ -48,7 +48,7 @@
                     <div class="col-lg-8">
                         <div class="review-content text-box text-white">
                             <div class="rating">
-                                <h5><i>Price-polol</i><span>4000$</span> </h5>
+                                <h5><i>Price-polol</i><span>4000₹</span> </h5>
                             </div>
                             <div class="top-meta"> 22/11/2000  <a href=""></a></div>
                             <h3>Final Appocalipse</h3>
@@ -71,7 +71,7 @@
                     <div class="col-lg-8">
                         <div class="review-content text-box text-white">
                             <div class="rating">
-                                <h5><i>Price-polol</i><span>4000$</span> </h5>
+                                <h5><i>Price-polol</i><span>4000₹</span> </h5>
                             </div>
                             <div class="top-meta"> 22/11/2000  <a href=""></a></div>
                             <h3>Final Appocalipse</h3>

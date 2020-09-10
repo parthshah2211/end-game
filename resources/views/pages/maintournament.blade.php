@@ -12,10 +12,8 @@
         </div>
         <div> <a></a></div>
         <div class="page-info">
-            <a href="register.php" class="site-btn">
-                 join tournamnet
-            </a>
-
+            <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal"
+                                    style="color:white;">    join tournamnet</button></p>
         </div>
     </section>
 
@@ -49,7 +47,32 @@
             </div>
         </div>
     </section>
-
+    <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:white;" id="subscribeModalLabel">Fill the details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="form-control-label">Enter your & your team mate phone number</label>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Team Head Phone Number">
+                            <input type="text" class="form-control" id="recipient-name" placeholder=" Phone Number">
+                            <input type="text" class="form-control" id="recipient-name" placeholder=" Phone Number">
+                            <input type="text" class="form-control" id="recipient-name" placeholder=" Phone Number">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" style="color:WHITE;">Join</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

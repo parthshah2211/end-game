@@ -45,25 +45,26 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="">Tournamnet</a>
                         <ul class="sub-menu">
-                            <li><a href="{{url('/tournament')}}" >free fite </a></li>
+                            <li><a href="{{url('/tournament')}}" >free fire </a></li>
 
 
-                            <li><a href="{{url('/comingsoon')}}">PUBG</a></li>
-                            <li><a href="{{url('/tournament')}}">COD</a></li>
+                            <li><a href="{{url('/comingsoon')}}">COD</a></li>
+                            <li><a href="{{url('/comingsoon')}}">Fortnite</a></li>
                         </ul>
                     </li>
                     <li><a href="review.html">screems</a>
                         <ul class="sub-menu">
-                            <li><a href="screms.html">Free-Fire</a></li>
+                            <li><a href="{{url('/comingsoon')}}">Free-Fire</a></li>
 
 
-                            <li><a href="screms.html">PUBG</a>
+                            <li><a href="{{url('/comingsoon')}}">COD</a>
                                 <ul class="sub-menu">
-                                    <li><a href="screms.html">free</a>
+                                    <li><a href="{{url('/comingsoon')}}"></a>
+                                    <li><a href="game-single.html">Fortnite</a></li>
                                     </li>
-
                                 </ul>
-                            <li><a href="game-single.html">COD</a></li>
+
+
                         </ul>
                     </li>
                     <li><a href="{{url('/give_way')}}">Give-Way</a>
@@ -71,8 +72,8 @@
                             <li><a href="{{url('/give_way/free-fire')}}">Free-Fire</a></li>
 
 
-                            <li><a href="{{url('/give_way')}}">PUBG</a></li>
-                            <li><a href="{{url('/give_way')}}">COD</a></li>
+                            <li><a href="{{url('/comingsoon')}}">COD</a></li>
+                            <li><a href="{{url('/comingsoon')}}">Fortnite</a></li>
                         </ul>
                     </li>
                     <li><a href="{{url('/News')}}">News</a>
@@ -80,8 +81,8 @@
                             <li><a href="{{url('/News')}}">Free-Fire</a></li>
 
 
-                            <li><a href="News.html">PUBG</a></li>
-                            <li><a href="News.html">COD</a></li>
+                            <li><a href="{{url('/comingsoon')}}">COD</a></li>
+                            <li><a href="{{url('/comingsoon')}}">Fortnite</a></li>
                         </ul>
                     </li>
 
