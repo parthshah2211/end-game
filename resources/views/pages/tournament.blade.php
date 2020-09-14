@@ -152,11 +152,15 @@
                         <div class="latest-comments">
                             <div class="lc-item">
                                 <img src="./img/blog-widget/1.jpg" class="lc-avatar" alt="#">
-                                <div class="tw-text">22/11/2020</a> <span>Price-pool:2000$</span> The best online game out there </div>
+                                <div class="tw-text">22/11/2020</a> <span>Price-pool:2000$ The best online game out there
+  </span>                               </div>
                             </div>
                             <div class="lc-item">
-                                <img src="./img/blog-widget/2.jpg" class="lc-avatar" alt="#">
-                                <div class="tw-text">22/11/2020</a> <span>Price-pool:2000$</span> The best online game out there </div>
+                                <img src="./img/blog-widget/2.jpg"  class="lc-avatar" alt="#">
+                                <div class="tw-text" ></div>
+                                    <h5 class="tw-text">22/11/2020<h5>
+                                    <h5 class="tw-text">Id:2211</h5>
+                                            <H5 class="tw-text">password:parth@2211</H5>
                             </div>
                             <div class="lc-item">
                                 <img src="./img/blog-widget/3.jpg" class="lc-avatar" alt="#">

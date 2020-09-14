@@ -10,7 +10,7 @@
             <div class="mail-form-agile">
                 <form method="POST" action="{{ route('register') }}">
                     @csrf
-                    <input type="text" id="name"  class="padding" placeholder="Your Name..."  name="name" value="{{ old('name') }}" required autocomplete="name">
+                    <input type="text" id="name"   class="padding" placeholder="Your Name..."  name="name" value="{{ old('name') }}" required autocomplete="name">
                     @error('name')
                     <span class="error" role="alert">
                                         <strong>{{ $message }}</strong>

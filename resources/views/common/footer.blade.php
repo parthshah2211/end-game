@@ -39,7 +39,5 @@
             <a href="#"><i class="fa fa-dribbble"></i></a>
             <a href="#"><i class="fa fa-behance"></i></a>
         </div>
-        <div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
-    </div>
-</footer>
+        </footer>
 <!-- Footer section end -->

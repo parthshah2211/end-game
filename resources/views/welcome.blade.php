@@ -6,16 +6,16 @@
         <div class="hero-slider owl-carousel">
             <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slide1.jpg">
                 <div class="container">
-                    <h2>JOIN TOURNAMENT</h2>
+                    <h2>TOURNAMENT</h2>
                     <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-                    <a href="register.html" class="site-btn">JOIN HERARE</a>
+                    <a href="{{url('/tournament')}}" class="site-btn">JOIN HERARE</a>
                 </div>
             </div>
             <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/SLIDE2.jpg">
                 <div class="container">
-                    <h2>JOIN GIVE-WAY</h2>
+                    <h2> GIVE-WAY</h2>
                     <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-                    <a href="#" class="site-btn">JOIN  HERARE</a>
+                    <a href="{{url('/give_way/free-fire')}}" class="site-btn">JOIN  HERARE</a>
                 </div>
             </div>
              </div>
@@ -53,7 +53,7 @@
                             <div class="top-meta"> 22/11/2000  <a href=""></a></div>
                             <h3>Final Appocalipse</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Vivamus volutpat nibh ac sollicitudin imperdiet. Donec scelerisque lorem sodales odio ultricies, nec rhoncus ex lobortis. Vivamus tincidunt sit amet sem id varius. Donec elementum aliquet tortor. Curabitur justo mi, efficitur sed eros aliquealiqua.....</p>
-                            <a href="main tournament.html" class="read-more">Join-Tournament <img src="{{asset('img/icons/double-arrow.png')}}" alt="#"/></a>
+                            <a href="{{url('/tournamentDetail')}}" class="read-more">Join-Tournament <img src="{{asset('img/icons/double-arrow.png')}}" alt="#"/></a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                             <div class="top-meta"> 22/11/2000  <a href=""></a></div>
                             <h3>Final Appocalipse</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Vivamus volutpat nibh ac sollicitudin imperdiet. Donec scelerisque lorem sodales odio ultricies, nec rhoncus ex lobortis. Vivamus tincidunt sit amet sem id varius. Donec elementum aliquet tortor. Curabitur justo mi, efficitur sed eros aliquealiqua.....</p>
-                            <a href="main tournament.html" class="read-more">Join-tournament <img src="img/icons/double-arrow.png" alt="#"/></a>
+                            <a href="{{url('/tournamentDetail')}}" class="read-more">Join-tournament <img src="img/icons/double-arrow.png" alt="#"/></a>
                         </div>
                     </div>
                 </div>
@@ -85,9 +85,9 @@
 
         </div>
         <div class="site-pagination">
-            <a href="Tournament.html" class="active">01.</a>
-            <a href="Tournament.html">02.</a>
-            <a href="Tournament.html">03.</a>
+            <a href="{{url('/tournament')}}" class="active">01.</a>
+            <a href="{{url('/tournament')}}">02.</a>
+            <a href="{{url('/tournament')}}">03.</a>
         </div>
 
     </section>
@@ -116,7 +116,7 @@
                     <div class="news-card__post-date">Jan 29, 2018</div>
                     <div class="news-card__details-wrapper">
                         <p class="news-card__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex natus nulla rem sequi laborum quod fugit&hellip;</p>
-                        <a href="main news.html" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="{{url('/mainnews')}}" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                     <div class="news-card__post-date">Jan 29, 2018</div>
                     <div class="news-card__details-wrapper">
                         <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae&hellip;</p>
-                        <a href="main news.html" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="{{url('/mainnews')}}" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <div class="news-card__post-date">Jan 29, 2018</div>
                     <div class="news-card__details-wrapper">
                         <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
-                        <a href="main news.html" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="{{url('/mainnews')}}" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -155,13 +155,13 @@
                     <div class="news-card__post-date">Jan 29, 2018</div>
                     <div class="news-card__details-wrapper">
                         <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
-                        <a href="main news.html" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="{{url('/mainnews')}}" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
 
             <div class="news-card">
-                <a href="main news.html" class="news-card__card-link"></a>
+                <a href="{{url('/mainnews')}}" class="news-card__card-link"></a>
                 <img src="{{asset('img/news3.jpg')}}"alt="" class="news-card__image">
                 <div class="news-card__text-wrapper">
                     <h2 class="news-card__title">Purgatory is removed from ranked and replaced by Kalahari on Free Fire</h2>
@@ -178,9 +178,9 @@
         </div>
 
         <div class="site-pagination">
-            <a href="News.html" class="active">01.</a>
-            <a href="News.html">02.</a>
-            <a href="News.html">03.</a>
+            <a href="{{url('/News')}}" class="active">01.</a>
+            <a href="{{url('/News')}}">02.</a>
+            <a href="{{url('/News')}}">03.</a>
         </div>
 
 

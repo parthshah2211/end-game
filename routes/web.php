@@ -23,6 +23,12 @@ Route::get('/tournament', function () {
 Route::get('/comingsoon', function () {
     return view('pages.comingsoon');
 })->middleware('auth');;
+Route::get('/profile', function () {
+    return view('pages.profile');
+})->middleware('auth');;
+Route::get('/mytournament', function () {
+    return view('pages.mytournament');
+})->middleware('auth');;
 
 Route::get('/tournamentDetail', function () {
     return view('pages.maintournament');

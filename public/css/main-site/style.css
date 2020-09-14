@@ -894,10 +894,14 @@ img {vertical-align: middle;}
 }
 
 .latest-comments .lc-item .lc-avatar {
-	width: 64px;
-	height: 64px;
+    height: 64px;
+    margin:auto;
+    width: 64px;
+    margin-top: 40px;
 	border-radius: 50%;
 	float: left;
+    display: block;
+    padding:5px;
 	margin-right: 12px;
 }
 
@@ -3419,18 +3423,54 @@ body {
                                                                                                                                                           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
                                                                                                                                                                                                                                                     <script src="scripts/main.js"></script>
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  table#kurosawa {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      background-image:url(free\ fire.jpg);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      height:auto0;
+/* my tournament start */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      width: fit-content;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      border-collapse: collapse;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  }
+table#kurosawa caption {
+    font-size: larger;
+    padding: 1em;
+    margin-top: auto;
+}
+table#kurosawa td {
+    padding: .5em;
+}
+table#kurosawa thead tr {
+    background: #000;
+    color: #fff;
+}
+table#kurosawa tbody tr:nth-child(odd) {
+    background: rgba(0,0,0,0.3);
+}
+table#kurosawa tbody tr:hover {
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    cursor: pointer;
+}
+                                                                                                                                                                                                                                              text-decoration: none;
+                                                                                                                                                                                                                                              color: #fff;
+                                                                                                                                                                                                                                              background: #000;
+                                                                                                                                                                                                                                              padding: .5em;
+                                                                                                                                                                                                                                              display: block;
+                                                                                                                                                                                                                                          }
+table#kurosawa thead tr th a:hover {
+    background: #777;
+}
+table#kurosawa col:target {
+    background: rgba(255,0,0,0.5);
+    color: white;
+}
 
 
 
 
 
+/* my tournament end */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      width: fit-content;
 
 
-
-/* ==========================================================================
-	 #coming-sonn end
-	 ========================================================================== */
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * user card
 
 
 

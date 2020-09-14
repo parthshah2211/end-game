@@ -1,4 +1,4 @@
-=<!-- Header section -->
+<!-- Header section -->
 <header class="header-section">
     <div class="header-warp">
 
@@ -28,7 +28,8 @@
                                                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
-
+                                <a class="dropdown-item" href="{{url('/profile')}}">profile</a>
+                                <a class="dropdown-item" href="{{url('/mytournament')}}">My tournament</a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                       style="display: none;">
